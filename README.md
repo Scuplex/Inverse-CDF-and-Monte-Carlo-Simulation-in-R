@@ -6,7 +6,7 @@ The key feature of this script is the visual validation: it generates a large sa
 
 ## 1. Inverse CDF Sampling & PDF Overlay
 
-The script generates $10^7$ random numbers ($U \sim \mathcal{U}(0, 1)$) and transforms them using the Inverse CDF formula specific to each distribution. The resulting empirical distribution is plotted as a histogram, with the corresponding theoretical PDF plotted as a red line overlay.
+The script generates $10^7$ random numbers ($$U \sim \mathcal{U}(0, 1)$$) and transforms them using the Inverse CDF formula specific to each distribution. The resulting empirical distribution is plotted as a histogram, with the corresponding theoretical PDF plotted as a red line overlay.
 
 The following distributions are implemented and validated:
 
