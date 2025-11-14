@@ -12,7 +12,7 @@ Expo_pdf <- lambda * exp(-lambda * x_grid)
 hist(EXDIST, breaks = 65, prob = TRUE, main = "Exponential", xlab = "")
 lines(x_grid, Expo_pdf, col = "red", lwd = 2)
 
-# 2) Pareto Inverse CDF
+# 2) Pareto Inverse CDF,
 alpha <- 20
 sigma <- 1
 U <- runif(1e7)
